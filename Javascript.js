@@ -8,9 +8,7 @@ case 1: choice = "Paper"
 break;
 case 2: choice = "Scissors"
 break;
-default:
-console.log("Wrong input!")
 }
-console.log(num);
-console.log(choice);
+return choice;
 }
+console.log(getComputerChoice())
